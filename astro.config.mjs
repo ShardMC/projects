@@ -17,7 +17,7 @@ export default defineConfig({
 				{
 					label: 'Arte',
 					badge: 'new',
-					autogenerate: { directory: '/arte' },
+					autogenerate: { directory: '/Arte' },
 				},
 			],
 			customCss: [
