@@ -16,13 +16,17 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Arte',
-					link: '/arte',
-					autogenerate: { directory: 'projects/arte' },
+					badge: 'new',
+					autogenerate: { directory: '/arte' },
 				},
 			],
 			customCss: [
 				'./src/styles/custom.css',
-			]
+				"./src/styles/project.css"
+			],
+			components: {
+				Header: './src/components/Header.astro'
+			}
 		}),
 	],
 });

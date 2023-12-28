@@ -1,0 +1,109 @@
+---
+title: About
+hero:
+  tagline: A mod/plugin that optimizes big server resource packs!
+  image:
+    file: ../../../assets/arte/arte.png
+  actions:
+  - text: View on GitHub
+    link: https://github.com/ShardMC/arte
+  - text: Report Bug
+    link: https://github.com/ShardMC/arte/issues
+  - text: Request Feature
+    link: https://github.com/ShardMC/arte/pulls
+---
+
+<div align="center">
+    <div className="devins-badge">
+        ![Spigot][spigot-shield]
+    </div>
+    <div className="devins-badge">
+        ![Fabric][fabric-shield]
+    </div>
+    <div className="devins-badge">
+        ![No Forge][noforge-shield]
+    </div>
+</div>
+
+:::note
+Arte works only on Minecraft 1.20.3+
+:::
+
+[//]: # ([![Arte Speed Comparison][speed-comparison]][github-url])
+
+So, what does it do? Simple! Let's say you have a BIG server resource pack.
+Every time you make a little change, you will have to manually re-host it somewhere, and players will have to fully re-download it.
+This can get annoying. Arte splits the resource pack into parts (by namespaces), hosts it directly on your server
+and sends each one as a different server resource pack!
+> Q: How is this possible? There can only be one server resource pack loaded at one time!
+
+> A: In 1.20.3 Mojang added a new feature that allows servers to send multiple server resource packs at a time!
+
+Players will only re-download the parts that actually need updating, and apply other server packs.
+(Tip: arte can be combined with [Resource Pack Tweaks][rptweaks-url] mod for best server resource pack behaviour).
+
+
+
+[//]: # ( ROADMAP )
+## Roadmap
+
+- [x] Initial stable release
+- [ ] More zip splitter types
+- [ ] Sized
+- [ ] Smart
+- [ ] Grouped
+
+See the [open issues][github-issues-url] for a full list of proposed features (and known issues).
+
+
+
+[//]: # ( CONTRIBUTING )
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+[//]: # ( LICENSE )
+## License
+
+Distributed under the Apache License 2.0. See [`LICENSE.md`](https://github.com/ShardMC/arte/LICENSE.md) for more information.
+
+
+
+[//]: # ( CONTACT )
+## Contact
+
+[![Discord][discord-shield]][discord-url]
+
+
+
+[//]: # ( ACKNOWLEDGMENTS )
+## Acknowledgments
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [Devin's Badges](https://github.com/intergrav/devins-badges)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [GitHub Pages](https://pages.github.com)
+
+
+
+[//]: # ( MARKDOWN LINKS & IMAGES )
+[//]: # ( https://www.markdownguide.org/basic-syntax/#reference-style-links )
+[spigot-shield]: https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/supported/spigot_64h.png
+[fabric-shield]: https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/supported/fabric_64h.png
+[noforge-shield]: https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/unsupported/forge_64h.png
+
+[rptweaks-url]: https://modrinth.com/mod/resource-pack-tweaks
+
+[discord-shield]: https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/social/discord-plural_64h.png
+[discord-url]: https://discord.gg/CqVAzakrqx
