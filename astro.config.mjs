@@ -3,25 +3,26 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://shardmc.github.io',
+	base: '/projects',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'ShardMC Projects',
+			favicon: './favicon.png',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/ShardMC',
+				discord: 'https://discord.gg/CqVAzakrqx'
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Arte',
+					link: '/arte',
+					autogenerate: { directory: 'projects/arte' },
 				},
 			],
+			customCss: [
+				'./src/styles/custom.css',
+			]
 		}),
 	],
 });
