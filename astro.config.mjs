@@ -25,7 +25,8 @@ export default defineConfig({
 				"./src/styles/project.css"
 			],
 			components: {
-				Header: './src/components/Header.astro'
+				Header: './src/components/Header.astro',
+				MobileMenuFooter: './src/components/MobileMenuFooter.astro'
 			}
 		}),
 	],
