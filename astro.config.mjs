@@ -16,7 +16,11 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Arte',
-					badge: 'new',
+					collapsed: true,
+					badge: {
+						text: 'New',
+						variant: 'tip'
+					},
 					autogenerate: { directory: '/arte' },
 				},
 			],
