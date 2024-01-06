@@ -26,7 +26,7 @@ export default defineConfig({
 			],
 			customCss: [
 				'./src/styles/custom.css',
-				"./src/styles/project.css"
+				'./src/styles/project.css'
 			],
 			components: {
 				Header: './src/components/Header.astro',
